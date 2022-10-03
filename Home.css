@@ -1,0 +1,44 @@
+.background{
+    height: 450px;
+    width: 38%;
+    background-color: antiquewhite;
+    margin-left: 28%;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.background input{
+    width: 60%;
+    padding: 7px;
+    padding-left: 8px;
+    margin-top: 4px;
+    margin-left: 17%;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    margin-top: 20px;
+  margin-left: 22.5%;
+  width: 50%;
+  border-radius: 30px;
+  background-color: #19535F;
+  border: none;
+  font-size: 14px;
+  padding: 9px;
+  color: white;
+  cursor: pointer;
+}
+h3{
+    margin-left: 28%;
+}
+.QR-code{
+    width: 79%;
+    height: 270px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
