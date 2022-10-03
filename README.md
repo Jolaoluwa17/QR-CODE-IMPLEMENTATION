@@ -1,2 +1,2 @@
-# Task-Manager
-Used to manage your tasks 
+# QR-Code Implementation
+This is a QR-Code generator and reader using an API from https://goqr.me/api/ 
