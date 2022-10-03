@@ -1,9 +1,9 @@
 .background{
-    height: 450px;
+    height: 550px;
     width: 38%;
     background-color: antiquewhite;
     margin-left: 28%;
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 30px;
     border-radius: 20px;
 }
@@ -29,11 +29,13 @@ button{
   cursor: pointer;
 }
 h3{
-    margin-left: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .QR-code{
     width: 79%;
-    height: 270px;
+    height: 240px;
     background-color: white;
     margin-left: 10%;
     margin-top: 20px;
@@ -41,4 +43,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.text_area{
+    /* margin-top: 5px; */
+    width: 79%;
+    margin-left: 9.8%;
+    border: none;
 }

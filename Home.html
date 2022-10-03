@@ -11,6 +11,7 @@
     <div class="form">
         <form action="#">
             <input type="text" name="text" id="text" placeholder="Please enter text">
+            <input type="file" class="attach_file">
         </form>
     </div>
         <button id="btn" class="btn" >Generate QR Code</button>
@@ -18,7 +19,11 @@
         <div class="QR-code">
             <img src="" alt="qr-code">
         </div>
+        <h3>Result To File</h3>
+        <textarea id="text" class="text_area"></textarea>
     </div>
+    
     <script src="/QR-CODE-IMPLEMENTATION/Generate-qr.js"></script>
+    <script src="/QR-CODE-IMPLEMENTATION/scan-qr.js"></script>
     </body>
 </html>
